@@ -1,0 +1,17 @@
+{
+    "name": "Domain",
+    "references": [
+        "UniRx",
+        "MessagePack",
+        "UniRx.Async",
+        "Zenject"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

@@ -1,0 +1,29 @@
+{
+    "name": "ZenjectTetrisEditor",
+    "references": [
+        "Zenject-Editor",
+        "Zenject-PoolMonitor-Editor",
+        "Zenject",
+        "Zenject-TestFramework",
+        "Zenject-ReflectionBaking-Editor",
+        "UniRx",
+        "UniRx.Async",
+        "MessagePack",
+        "Data",
+        "Domain",
+        "Installer",
+        "Presentation"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

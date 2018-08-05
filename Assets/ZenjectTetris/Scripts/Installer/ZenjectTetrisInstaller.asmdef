@@ -1,0 +1,20 @@
+{
+    "name": "Installer",
+    "references": [
+        "Data",
+        "Presentation",
+        "Domain",
+        "MessagePack",
+        "UniRx",
+        "UniRx.Async",
+        "Zenject"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

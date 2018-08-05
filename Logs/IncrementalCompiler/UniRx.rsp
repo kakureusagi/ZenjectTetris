@@ -1,0 +1,537 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:7
+-out:C:/Workspace/ZenjectTetris/ZenjectTetris/Temp/UniRx.dll
+-nostdlib
+-unsafe
+-r:C:/Workspace/ZenjectTetris/ZenjectTetris/Library/ScriptAssemblies/UniRx.Async.dll
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\Managed/Unity.Locator.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity2018/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+-r:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
+-r:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
+-r:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
+-r:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
+-r:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll
+-r:C:/Users/shota/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
+-r:C:/Users/shota/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/shota/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/Editor/UnityEditor.Analytics.dll
+-r:C:/Users/shota/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:C:/Users/shota/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity2018\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-d:UNITY_5_3_OR_NEWER
+-d:UNITY_5_4_OR_NEWER
+-d:UNITY_5_5_OR_NEWER
+-d:UNITY_5_6_OR_NEWER
+-d:UNITY_2017_1_OR_NEWER
+-d:UNITY_2017_2_OR_NEWER
+-d:UNITY_2017_3_OR_NEWER
+-d:UNITY_2017_4_OR_NEWER
+-d:UNITY_2018_1_OR_NEWER
+-d:UNITY_2018_2_OR_NEWER
+-d:UNITY_2018_2_3
+-d:UNITY_2018_2
+-d:UNITY_2018
+-d:PLATFORM_ARCH_64
+-d:UNITY_64
+-d:UNITY_ANALYTICS
+-d:ENABLE_AUDIO
+-d:ENABLE_CACHING
+-d:ENABLE_CLOTH
+-d:ENABLE_DUCK_TYPING
+-d:ENABLE_MICROPHONE
+-d:ENABLE_MULTIPLE_DISPLAYS
+-d:ENABLE_PHYSICS
+-d:ENABLE_SPRITES
+-d:ENABLE_GRID
+-d:ENABLE_TILEMAP
+-d:ENABLE_TERRAIN
+-d:ENABLE_TEXTURE_STREAMING
+-d:ENABLE_DIRECTOR
+-d:ENABLE_UNET
+-d:ENABLE_LZMA
+-d:ENABLE_UNITYEVENTS
+-d:ENABLE_WEBCAM
+-d:ENABLE_WWW
+-d:ENABLE_CLOUD_SERVICES_COLLAB
+-d:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-d:ENABLE_CLOUD_SERVICES_ADS
+-d:ENABLE_CLOUD_HUB
+-d:ENABLE_CLOUD_PROJECT_ID
+-d:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-d:ENABLE_CLOUD_SERVICES_UNET
+-d:ENABLE_CLOUD_SERVICES_BUILD
+-d:ENABLE_CLOUD_LICENSE
+-d:ENABLE_EDITOR_HUB
+-d:ENABLE_EDITOR_HUB_LICENSE
+-d:ENABLE_WEBSOCKET_CLIENT
+-d:ENABLE_DIRECTOR_AUDIO
+-d:ENABLE_DIRECTOR_TEXTURE
+-d:ENABLE_TIMELINE
+-d:ENABLE_EDITOR_METRICS
+-d:ENABLE_EDITOR_METRICS_CACHING
+-d:ENABLE_MANAGED_JOBS
+-d:ENABLE_MANAGED_TRANSFORM_JOBS
+-d:ENABLE_MANAGED_ANIMATION_JOBS
+-d:INCLUDE_DYNAMIC_GI
+-d:INCLUDE_GI
+-d:ENABLE_MONO_BDWGC
+-d:PLATFORM_SUPPORTS_MONO
+-d:RENDER_SOFTWARE_CURSOR
+-d:INCLUDE_PUBNUB
+-d:ENABLE_VIDEO
+-d:ENABLE_PACKMAN
+-d:ENABLE_CUSTOM_RENDER_TEXTURE
+-d:ENABLE_LOCALIZATION
+-d:PLATFORM_STANDALONE_WIN
+-d:PLATFORM_STANDALONE
+-d:UNITY_STANDALONE_WIN
+-d:UNITY_STANDALONE
+-d:ENABLE_SUBSTANCE
+-d:ENABLE_RUNTIME_GI
+-d:ENABLE_MOVIES
+-d:ENABLE_NETWORK
+-d:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-d:ENABLE_UNITYWEBREQUEST
+-d:ENABLE_CLOUD_SERVICES
+-d:ENABLE_CLOUD_SERVICES_ANALYTICS
+-d:ENABLE_CLOUD_SERVICES_PURCHASING
+-d:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-d:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-d:ENABLE_EVENT_QUEUE
+-d:ENABLE_CLUSTER_SYNC
+-d:ENABLE_CLUSTERINPUT
+-d:ENABLE_VR
+-d:ENABLE_AR
+-d:ENABLE_WEBSOCKET_HOST
+-d:ENABLE_MONO
+-d:NET_4_6
+-d:ENABLE_PROFILER
+-d:DEBUG
+-d:TRACE
+-d:UNITY_ASSERTIONS
+-d:UNITY_EDITOR
+-d:UNITY_EDITOR_64
+-d:UNITY_EDITOR_WIN
+-d:ENABLE_UNITY_COLLECTIONS_CHECKS
+-d:ENABLE_BURST_AOT
+-d:UNITY_TEAM_LICENSE
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Asynchronous/WebRequestExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/BooleanDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/CancellationDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/CompositeDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/DictionaryDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/Disposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/DisposableExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/ICancelable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/MultipleAssignmentDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/RefCountDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/ScheduledDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/SerialDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/SingleAssignmentDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Disposables/StableCompositeDisposable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/EventPattern.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/AscynLock.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/ExceptionExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/ImmutableList.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/ListObserver.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/MicroCoroutine.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/PriorityQueue.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/ScheduledItem.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/InternalUtil/ThreadSafeQueueWorker.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Notification.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Notifiers/BooleanNotifier.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Notifiers/CountNotifier.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Notifiers/MessageBroker.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Notifiers/ScheduledNotifier.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Aggregate.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Awaiter.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Binding.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Blocking.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Concatenate.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Concurrency.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Conversions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Creation.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.ErrorHandling.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Events.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.FromAsync.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Joins.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Paging.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observable.Time.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Observer.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Aggregate.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Amb.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/AsObservable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/AsSingleUnitObservable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/AsUnitObservable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Buffer.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Cast.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Catch.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/CombineLatest.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Concat.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ContinueWith.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Create.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/DefaultIfEmpty.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Defer.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Delay.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/DelaySubscription.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Dematerialize.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Distinct.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/DistinctUntilChanged.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Do.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Empty.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Finally.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/First.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ForEachAsync.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/FromEvent.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/GroupBy.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/IgnoreElements.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Last.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Materialize.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Merge.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Never.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ObserveOn.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/OfType.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/OperatorObservableBase.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/OperatorObserverBase.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/PairWise.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Range.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/RefCount.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Repeat.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/RepeatSafe.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Return.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Sample.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Scan.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Select.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/SelectMany.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/SelectWhere.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Single.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Skip.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/SkipUntil.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/SkipWhile.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Start.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/StartWith.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/SubscribeOn.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Switch.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Synchronize.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/SynchronizedObserver.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Take.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/TakeLast.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/TakeUntil.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/TakeWhile.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Throttle.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ThrottleFirst.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Throw.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/TimeInterval.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Timeout.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Timer.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Timestamp.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ToArray.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ToList.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ToObservable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Wait.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/WhenAll.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Where.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/WhereSelect.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/WithLatestFrom.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/Zip.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Operators/ZipLatest.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Pair.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Schedulers/CurrentThreadScheduler.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Schedulers/ImmediateScheduler.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Schedulers/IScheduler.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Schedulers/Scheduler.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Schedulers/ThreadPoolScheduler.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Subjects/AsyncSubject.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Subjects/BehaviorSubject.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Subjects/ConnectableObservable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Subjects/ISubject.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Subjects/ReplaySubject.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Subjects/Subject.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Subjects/SubjectExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/System/IObservable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/System/IObserver.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/System/IOptimizedObservable.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/System/IProgress.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/System/Tuple.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/System/Unit.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Tasks/TaskObservableExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Tasks/UniTaskObservableExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/TimeInterval.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/Timestamped.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/AsyncOperationExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/CancellationToken.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/CoroutineAsyncBridge.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/LogEntry.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/LogEntryExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/Logger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/ObservableDebugExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/ObservableLogger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Diagnostics/UnityDebugSink.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/FrameInterval.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/InspectableReactiveProperty.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/InspectorDisplayDrawer.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/LifetimeDisposableExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/MainThreadDispatcher.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/MainThreadScheduler.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Observable.Unity.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ObservableWWW.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ObserveExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/BatchFrame.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/DelayFrame.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/DelayFrameSubscription.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FrameInterval.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FrameTimeInterval.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/FromCoroutine.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/RepeatUntil.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/SampleFrame.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/SubscribeOnMainThread.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/ThrottleFirstFrame.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/ThrottleFrame.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Operators/TimeoutFrame.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveCollection.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveCommand.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveDictionary.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactiveProperty.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ReactivePropertyReusablePromise.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/ScenePlaybackDetector.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Toolkit/ObjectPool.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableAnimatorTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableBeginDragTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCancelTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCanvasGroupChangedTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCollision2DTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableCollisionTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDeselectTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDestroyTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDragTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableDropTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableEnableTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableEndDragTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableEventTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableFixedUpdateTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableInitializePotentialDragTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableJointTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableLateUpdateTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableMouseTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableMoveTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableParticleTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerClickTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerDownTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerEnterTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerExitTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservablePointerUpTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableRectTransformTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableScrollTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableSelectTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableStateMachineTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableSubmitTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTransformChangedTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTrigger2DTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerBase.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerExtensions.Component.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableTriggerTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateSelectedTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableUpdateTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/Triggers/ObservableVisibleTrigger.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityEqualityComparer.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityEventExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityGraphicExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/UnityUIComponentExtensions.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityEngineBridge/YieldInstructionCache.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityWinRTBridge/Thread.cs
+-i:C:/Workspace/ZenjectTetris/ZenjectTetris/Assets/Plugins/UniRx/Scripts/UnityWinRTBridge/ThreadPoolScheduler_UnityWinRT.cs
+-v:0
