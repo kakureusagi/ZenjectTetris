@@ -1,6 +1,5 @@
 using System.IO;
 using MessagePack;
-using UnityEngine;
 using Zenject;
 
 #pragma warning disable 649
@@ -30,8 +29,6 @@ namespace ZenjectTetris.Data {
 			using (var stream = new FileStream(_path, FileMode.Create, FileAccess.Write)) {
 				MessagePackSerializer.Serialize<T>(stream, data);
 			}
-
-			Debug.Log(_path);
 		}
 
 		public void Delete(string path) {
