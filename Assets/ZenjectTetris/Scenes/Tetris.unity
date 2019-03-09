@@ -7068,7 +7068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   presenter: {fileID: 1454495439}
   sceneData:
-    difficulty: 0
+    difficulty: 1
 --- !u!4 &600010573
 Transform:
   m_ObjectHideFlags: 0

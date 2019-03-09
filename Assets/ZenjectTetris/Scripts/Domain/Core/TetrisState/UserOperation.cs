@@ -1,4 +1,3 @@
-using System;
 using UnityEngine.Assertions;
 
 namespace ZenjectTetris.Domain.Core.TetrisState {
@@ -99,7 +98,7 @@ namespace ZenjectTetris.Domain.Core.TetrisState {
 				case InputType.None:
 					break;
 				default:
-					throw new ArgumentOutOfRangeException(nameof(inputType), inputType, null);
+					break;
 			}
 
 			return State.UserOperation;

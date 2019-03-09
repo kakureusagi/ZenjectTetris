@@ -68,11 +68,11 @@ namespace ZenjectTetris.Domain.Core {
 			var random = Random.Range(0, fourPatterns.Count);
 			var original = fourPatterns[random];
 
-			var width = original.GetLength(0);
-			var height = original.GetLength(1);
-			var instance = new TetriminoColor[width, height];
+			var height = original.GetLength(0);
+			var width = original.GetLength(1);
+			var instance = new TetriminoColor[height, width];
 
-			Array.Copy(original, instance, width * height);
+			Array.Copy(original, instance, height * width);
 			return new Tetrimino(instance);
 		}
 

@@ -5,7 +5,7 @@ namespace ZenjectTetris.Domain.Core {
 	/// <summary>
 	/// テトリミノ１つ分の情報.
 	/// </summary>
-	class Tetrimino {
+	public class Tetrimino {
 
 		public TetriminoColor[,] TetriminoColors { get; }
 		public int Width { get; }
@@ -22,16 +22,17 @@ namespace ZenjectTetris.Domain.Core {
 		public Tetrimino(TetriminoColor[,] tetriminoColors) {
 			Assert.IsNotNull(tetriminoColors);
 
+			// 多次元配列は下の方が数字が大きい。テトリスでは上方向がyが大きく、向きが逆なので注意.
 			TetriminoColors = tetriminoColors;
-			Width = tetriminoColors.GetLength(0);
-			Height = tetriminoColors.GetLength(1);
-			buffer = new TetriminoColor[Width, Height];
+			Height = tetriminoColors.GetLength(0);
+			Width = tetriminoColors.GetLength(1);
+			buffer = new TetriminoColor[Height, Width];
 
 			var bottommost = Height - 1;
 			var leftmost = Width - 1;
-			for (var x = 0; x < Width; x++) {
-				for (var y = 0; y < Height; y++) {
-					if (tetriminoColors[x, y] == TetriminoColor.None) {
+			for (var y = 0; y < Height; y++) {
+				for (var x = 0; x < Width; x++) {
+					if (tetriminoColors[Height - 1 - y, x] == TetriminoColor.None) {
 						continue;
 					}
 
@@ -62,7 +63,7 @@ namespace ZenjectTetris.Domain.Core {
 		public void TurnRight() {
 			for (var y = 0; y < Height; y++) {
 				for (var x = 0; x < Width; x++) {
-					buffer[x, y] = TetriminoColors[Height - y - 1, x];
+					buffer[x, Height - 1 - y] = TetriminoColors[y, x];
 				}
 			}
 
@@ -72,7 +73,7 @@ namespace ZenjectTetris.Domain.Core {
 		public void TurnLeft() {
 			for (var y = 0; y < Height; y++) {
 				for (var x = 0; x < Width; x++) {
-					buffer[x, y] = TetriminoColors[y, Width - x - 1];
+					buffer[Width - 1 - x, y] = TetriminoColors[y, x];
 				}
 			}
 
@@ -80,9 +81,9 @@ namespace ZenjectTetris.Domain.Core {
 		}
 
 		void Copy(TetriminoColor[,] from, TetriminoColor[,] to) {
-			for (var x = 0; x < Width; x++) {
-				for (var y = 0; y < Height; y++) {
-					to[x, y] = from[x, y];
+			for (var y = 0; y < Height; y++) {
+				for (var x = 0; x < Width; x++) {
+					to[y, x] = from[y, x];
 				}
 			}
 		}
