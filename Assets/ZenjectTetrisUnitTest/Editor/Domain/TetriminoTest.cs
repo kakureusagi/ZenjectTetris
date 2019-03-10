@@ -48,6 +48,9 @@ namespace ZenjectTetrisUnitTest {
 			}
 		};
 
+		/// <summary>
+		/// leftPatternsを右回転したときの状態.
+		/// </summary>
 		readonly TetriminoColor[][,] rightPatterns = {
 			new[,] {
 				{TetriminoColor.Color_5, TetriminoColor.Color_5,},
@@ -187,7 +190,7 @@ namespace ZenjectTetrisUnitTest {
 			CollectionAssert.AreEqual(left.TetriminoColors, right.TetriminoColors);
 		}
 
-		private Tetrimino CreateTetrimino(TetriminoColor[,] original) {
+		private static Tetrimino CreateTetrimino(TetriminoColor[,] original) {
 			var height = original.GetLength(0);
 			var width = original.GetLength(1);
 			var copy = new TetriminoColor[height, width];
