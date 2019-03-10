@@ -63,7 +63,7 @@ namespace ZenjectTetris.Presentation.Tetris {
 		Button toResultButton;
 
 
-		protected override async void RunCore() {
+		protected override void RunCore() {
 			FromPresenter();
 			FromView();
 
@@ -71,7 +71,7 @@ namespace ZenjectTetris.Presentation.Tetris {
 				.Subscribe(_ => useCase.Update(timer.DeltaTime))
 				.AddTo(this);
 
-			await StartEffect();
+			StartEffect();
 		}
 
 		void FromView() {
