@@ -4,7 +4,6 @@
         "Data",
         "Presentation",
         "Domain",
-        "MessagePack",
         "UniRx",
         "UniRx.Async",
         "Zenject"

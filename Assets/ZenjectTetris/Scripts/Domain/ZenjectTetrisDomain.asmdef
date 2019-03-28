@@ -2,7 +2,6 @@
     "name": "Domain",
     "references": [
         "UniRx",
-        "MessagePack",
         "UniRx.Async",
         "Zenject"
     ],

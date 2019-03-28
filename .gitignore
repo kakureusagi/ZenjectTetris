@@ -47,6 +47,6 @@ Assets/Plugins/UniRx*
 Assets/Plugins/Zenject*
 
 # MessagePackForC#
-Assets/Plugins/MessagePack*
+Assets/Plugins/MessagePack/Core*
 
 

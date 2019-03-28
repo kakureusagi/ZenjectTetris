@@ -2,7 +2,6 @@
     "name": "Presentation",
     "references": [
         "UniRx",
-        "MessagePack",
         "UniRx.Async",
         "Zenject",
         "Domain"
