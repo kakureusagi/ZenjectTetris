@@ -15,21 +15,30 @@ namespace ZenjectTetris.Data.Result {
 		[Inject]
 		HiScoreStore hiScoreStore;
 
+		[Inject]
+		CacheUserStore cacheUserStore;
+
+		[Inject]
+		HiScoreTranslator hiScoreTranslator;
+
 
 		public HiScore GetCurrentUserLastHiScore() {
-			var user = userStore.GetLoggedInUser();
-			return hiScoreStore.GetLastScore(user.Uuid);
+			var user = cacheUserStore.GetUser();
+			var hiScoreRecord = hiScoreStore.GetLastScore(user.Uuid);
+			return hiScoreTranslator.Translate(hiScoreRecord);
 		}
 
 		public HiScore[] GetCurrentUserHiScores() {
-			var user = userStore.GetLoggedInUser();
-			return hiScoreStore.GetHiScores(user.Uuid);
+			var user = cacheUserStore.GetUser();
+			return hiScoreStore.GetHiScores(user.Uuid)
+				.Select(record => hiScoreTranslator.Translate(record))
+				.ToArray();
 		}
 
 		public HiScoreRankingData[] GetRankingData() {
 			return hiScoreStore.GetAllUserHiScores()
 				.Select((hiScore, i) => {
-					var user = userStore.GetUser(hiScore.Uuid);
+					var user = userStore.GetUserById(hiScore.Uuid);
 					return new HiScoreRankingData {
 						Rank = i + 1,
 						Score = hiScore.Score,

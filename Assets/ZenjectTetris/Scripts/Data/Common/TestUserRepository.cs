@@ -13,6 +13,11 @@ namespace ZenjectTetris.Data {
 		[Inject]
 		UserStore userStore;
 
+		[Inject]
+		CacheUserStore cacheUserStore;
+
+		[Inject]
+		UserTranslator userTranslator;
 
 		public string GetUserName() {
 			return testUserNameStore.GetUserName();
@@ -23,7 +28,9 @@ namespace ZenjectTetris.Data {
 		}
 
 		public void Login(string userName) {
-			userStore.Login(userName);
+			var userRecord = userStore.GetUserByName(userName);
+			var user = userTranslator.Translate(userRecord);
+			cacheUserStore.SetUser(user);
 		}
 
 		public bool ExistsUser(string userName) {

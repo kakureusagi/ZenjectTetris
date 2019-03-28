@@ -27,7 +27,10 @@ namespace ZenjectTetris.Installer {
 
 			// data.
 			container.BindInterfacesTo<FileSave>().AsCached().WithArguments(Application.temporaryCachePath);
+			container.Bind<CacheUserStore>().AsCached();
 			container.Bind<UserStore>().AsCached();
+			container.Bind<UserTranslator>().AsCached();
+			container.Bind<HiScoreTranslator>().AsCached();
 
 			// test.
 			container.BindUseCase<TestUserUseCase, TestUserUseCaseFactory, TestUserUseCase.IFactory>();

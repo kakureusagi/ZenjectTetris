@@ -1,11 +1,10 @@
 using System;
 using MessagePack;
 
-namespace ZenjectTetris.Domain.Data {
+namespace ZenjectTetris.Data {
 
 	[MessagePackObject(true)]
-	public class HiScore {
-
+	public class HiScoreRecord {
 		public string Uuid { get; set; }
 		public int Score { get; set; }
 		public DateTime Date { get; set; }

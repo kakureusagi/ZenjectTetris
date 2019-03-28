@@ -8,14 +8,14 @@ namespace ZenjectTetris.Data.Title {
 	public class TetrisRepository : RepositoryBase, ITetrisRepository {
 
 		[Inject]
-		UserStore userStore;
+		HiScoreStore hiScoreStore;
 
 		[Inject]
-		HiScoreStore hiScoreStore;
+		CacheUserStore userStore;
 
 
 		public void SaveCurrentUserScore(int score) {
-			hiScoreStore.UpdateScore(userStore.GetLoggedInUser().Uuid, score);
+			hiScoreStore.UpdateScore(userStore.GetUser().Uuid, score);
 		}
 
 	}

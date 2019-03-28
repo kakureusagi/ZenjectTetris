@@ -4,7 +4,6 @@ using System.Linq;
 using MessagePack;
 using UnityEngine.Assertions;
 using Zenject;
-using ZenjectTetris.Domain.Data;
 
 #pragma warning disable 649
 
@@ -22,36 +21,36 @@ namespace ZenjectTetris.Data {
 			static readonly int MaxHiScoreCount = 30;
 
 			// シリアライズためにpublic.
-			public Dictionary<string, HiScore> userLastHiScores = new Dictionary<string, HiScore>();
-			public Dictionary<string, List<HiScore>> userHiScores = new Dictionary<string, List<HiScore>>();
-			public List<HiScore> allUserScores = new List<HiScore>();
+			public Dictionary<string, HiScoreRecord> userLastHiScores = new Dictionary<string, HiScoreRecord>();
+			public Dictionary<string, List<HiScoreRecord>> userHiScores = new Dictionary<string, List<HiScoreRecord>>();
+			public List<HiScoreRecord> allUserScores = new List<HiScoreRecord>();
 
 
-			public HiScore GetLastHiScore(string uuid) {
+			public HiScoreRecord GetLastHiScore(string uuid) {
 				return userLastHiScores.TryGetValue(uuid, out var score) ? score : null;
 			}
 
-			public HiScore[] GetAllUserHiScores() {
+			public HiScoreRecord[] GetAllUserHiScores() {
 				return allUserScores.ToArray();
 			}
 
-			public HiScore[] GetHiScores(string uuid) {
+			public HiScoreRecord[] GetHiScores(string uuid) {
 				Assert.IsNotNull(uuid);
 				if (userHiScores.TryGetValue(uuid, out var scores)) {
 					return scores.ToArray();
 				}
 
-				return new HiScore[0];
+				return new HiScoreRecord[0];
 			}
 
 			public void UpdateScore(string uuid, int score) {
 				// 個人毎の情報更新.
 				if (!userHiScores.TryGetValue(uuid, out var hiScores)) {
-					hiScores = new List<HiScore>();
+					hiScores = new List<HiScoreRecord>();
 					userHiScores.Add(uuid, hiScores);
 				}
 
-				var hiScore = new HiScore {
+				var hiScore = new HiScoreRecord {
 					Uuid = uuid,
 					Score = score,
 					Date = DateTime.Now,
@@ -71,7 +70,7 @@ namespace ZenjectTetris.Data {
 				allUserScores = AddHiScore(allUserScores, hiScore, MaxHiScoreCountPerUser);
 			}
 
-			private static List<HiScore> AddHiScore(List<HiScore> list, HiScore newScore, int maxCount) {
+			private static List<HiScoreRecord> AddHiScore(List<HiScoreRecord> list, HiScoreRecord newScore, int maxCount) {
 				list.Add(newScore);
 				return list
 					.OrderByDescending(score => score.Score)
@@ -82,7 +81,7 @@ namespace ZenjectTetris.Data {
 		}
 
 
-		static readonly string Path = "HiScoreStore-SaveData";
+		static readonly string Path = "HiScoreStore.save";
 
 
 		[Inject]
@@ -96,16 +95,16 @@ namespace ZenjectTetris.Data {
 			data = fileSave.Exists(Path) ? fileSave.Load<SaveData>(Path) : new SaveData();
 		}
 
-		public HiScore GetLastScore(string uuid) {
+		public HiScoreRecord GetLastScore(string uuid) {
 			Assert.IsNotNull(uuid);
 			return data.GetLastHiScore(uuid);
 		}
 
-		public HiScore[] GetAllUserHiScores() {
+		public HiScoreRecord[] GetAllUserHiScores() {
 			return data.GetAllUserHiScores();
 		}
 
-		public HiScore[] GetHiScores(string uuid) {
+		public HiScoreRecord[] GetHiScores(string uuid) {
 			Assert.IsNotNull(uuid);
 			return data.GetHiScores(uuid);
 		}
